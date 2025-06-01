@@ -1,0 +1,35 @@
+# ==============================================
+# League of Legends Predictor - Arquivo .gitignore
+# ==============================================
+# Define quais arquivos e diretórios serão ignorados pelo controle de versão Git
+# Mantém o repositório limpo e evita o compartilhamento de dados sensíveis ou específicos de ambiente
+
+# Arquivos de configuração com informações sensíveis
+# Contêm chaves de API da Riot Games e credenciais que não devem ser compartilhadas
+# NUNCA faça commit destes arquivos para evitar exposição de dados sensíveis
+.env
+*.env
+
+# Arquivos de cache Python
+# Arquivos compilados e de cache que são gerados durante a execução do código
+# São específicos da máquina local e não necessários para outros desenvolvedores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+# Contêm pacotes Python instalados e dependências do projeto
+# Devem ser criados localmente por cada desenvolvedor seguindo o requirements.txt
+# São grandes e desnecessários para versionamento
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos específicos de IDEs e editores
+# Configurações personalizadas do ambiente de desenvolvimento
+# Variam entre desenvolvedores e não afetam a funcionalidade do código
+.vscode/
+.idea/
+*.swp
+*.swo
