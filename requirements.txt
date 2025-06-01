@@ -1,0 +1,21 @@
+# ==================================================
+# Dependências do Projeto League of Legends Predictor
+# ==================================================
+# Instale todas as dependências com: pip install -r requirements.txt
+
+# Interface e API
+streamlit>=1.32.0      # Framework para criação de aplicações web interativas
+requests>=2.31.0       # Biblioteca para requisições HTTP à API da Riot Games
+python-dotenv>=1.0.1   # Gerenciamento de variáveis de ambiente (.env)
+
+# Análise e Processamento de Dados
+pandas>=2.2.2          # Manipulação e análise de dados tabulares
+numpy>=1.26.4          # Operações numéricas e manipulação de arrays
+
+# Visualização de Dados
+matplotlib>=3.8.4      # Criação de gráficos estáticos
+seaborn>=0.13.2        # Visualizações estatísticas baseadas em matplotlib
+plotly>=5.22.0         # Gráficos interativos para dashboard
+
+# Machine Learning
+scikit-learn>=1.4.2    # Algoritmos de aprendizado de máquina (Random Forest)
